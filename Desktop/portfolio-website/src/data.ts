@@ -1,6 +1,6 @@
 export const portfolioData = {
     personal: {
-        name: "Hey!, I am Bhavy",
+        name: "Hey! I am Bhavy",
         role: "Software Engineer & Security Analyst",
         bio: [
             "Information Systems Technology student",
