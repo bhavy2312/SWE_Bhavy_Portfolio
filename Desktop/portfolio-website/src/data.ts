@@ -17,7 +17,7 @@ export const portfolioData = {
     links: [
         {
             text: "View my Projects",
-            url: "#projects",
+            url: "#work",
             type: "work"
         },
         {

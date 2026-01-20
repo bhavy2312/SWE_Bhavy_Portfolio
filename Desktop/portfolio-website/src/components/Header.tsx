@@ -15,13 +15,12 @@ const Header: React.FC = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
         >
             <nav className={styles.nav}>
-                <a href="/" className={styles.homeLink} aria-label="Home">
+                <a href="#" className={styles.homeLink} aria-label="Home">
                     <Home size={16} strokeWidth={2} />
                 </a>
                 <ul className={styles.navLinks}>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#blog">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <button

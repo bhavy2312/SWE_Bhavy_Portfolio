@@ -6,7 +6,7 @@ import { ArrowUpRight } from 'lucide-react';
 
 const Projects: React.FC = () => {
     return (
-        <section className={styles.projectsContainer} id="projects">
+        <section className={styles.projectsContainer} id="work">
             <motion.div
                 className={styles.header}
                 initial={{ opacity: 0, y: 20 }}

@@ -6,7 +6,7 @@ import { portfolioData } from '../data';
 
 const Hero: React.FC = () => {
     return (
-        <main className={styles.heroContainer}>
+        <main className={styles.heroContainer} id="about">
             <motion.div
                 className={styles.titleSection}
                 initial={{ opacity: 0, y: 30 }}
