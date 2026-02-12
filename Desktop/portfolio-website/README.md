@@ -35,4 +35,4 @@ A clean, minimalist portfolio website built with React, TypeScript, and Vite.
 -   [React](https://reactjs.org/)
 -   [TypeScript](https://www.typescriptlang.org/)
 -   [Framer Motion](https://www.framer.com/motion/)
--   [Lucide React](https://lucide.dev/)
+
