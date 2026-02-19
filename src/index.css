@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+:root {
+  /* Light Theme (Default) */
+  --bg-color: #F3F3EF;
+  --text-color: #2A2A2A;
+  --header-bg: rgba(230, 230, 226, 0.6);
+  --accent-color: #3D3D3D;
+  --accent-text: #FFFFFF;
+
+  /* Glassmorphism - Light */
+  --glass-bg: rgba(255, 255, 255, 0.4);
+  --glass-border: rgba(255, 255, 255, 0.4);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05);
+  --glass-blur: blur(12px);
+
+  /* Blob Colors - Light */
+  --blob-color-1: #e0e7ff;
+  --blob-color-2: #fce7f3;
+  --blob-color-3: #fae8ff;
+
+  /* UI Elements - Light */
+  --border-color: rgba(0, 0, 0, 0.1);
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --tag-bg: rgba(255, 255, 255, 0.5);
+  --hover-bg: #ffffff;
+  --icon-box-bg: rgba(255, 255, 255, 0.4);
+
+  /* Nav - Light */
+  --nav-border: rgba(255, 255, 255, 0.8);
+  --nav-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', sans-serif;
+}
+
+[data-theme='dark'] {
+  /* Dark Theme */
+  --bg-color: #050505;
+  /* Slightly darker background */
+  --text-color: #f5f5f5;
+  /* brighter text */
+  --header-bg: rgba(5, 5, 5, 0.85);
+  --accent-color: #ffffff;
+  --accent-text: #000000;
+
+  /* Glassmorphism - Dark */
+  /* Use a dark semi-transparent background for better readability */
+  --glass-bg: rgba(30, 30, 30, 0.4);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.7);
+
+  /* Blob Colors - Dark */
+  --blob-color-1: #1a103c;
+  /* Darker, richer colors */
+  --blob-color-2: #3f0a42;
+  --blob-color-3: #2e054e;
+
+  /* UI Elements - Dark */
+  --border-color: rgba(255, 255, 255, 0.15);
+  --card-bg: rgba(40, 40, 40, 0.6);
+  --tag-bg: rgba(255, 255, 255, 0.15);
+  --hover-bg: #2a2a2a;
+  --icon-box-bg: rgba(255, 255, 255, 0.1);
+
+  /* Nav - Dark */
+  --nav-border: rgba(255, 255, 255, 0.1);
+  --nav-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+::selection {
+  background-color: var(--accent-color);
+  color: var(--accent-text);
+}
