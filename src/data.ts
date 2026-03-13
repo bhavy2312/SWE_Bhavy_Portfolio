@@ -22,7 +22,8 @@ export const portfolioData = {
         },
         {
             text: "View my Resume",
-            url: "/resume.pdf",
+            // Use Vite's BASE_URL to correctly link to the public asset regardless of deployment path
+            url: import.meta.env.BASE_URL + "resume.pdf",
             type: "person"
         }
     ],
